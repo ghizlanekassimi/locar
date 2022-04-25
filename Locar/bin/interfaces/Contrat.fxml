@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="18.0" layoutY="73.0" prefHeight="29.0" prefWidth="115.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="217.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <ImageView fitHeight="194.0" fitWidth="218.0" layoutX="439.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+      <ImageView fitHeight="334.0" fitWidth="299.0" layoutX="348.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox layoutX="11.0" layoutY="23.0" opacity="0.75" prefHeight="25.0" prefWidth="255.0" promptText="location" style="-fx-background-color: 7;" />
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="162.0" layoutY="73.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="123.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="16.0" layoutY="130.0" prefHeight="29.0" prefWidth="115.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="217.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="174.0" layoutY="130.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="20.0" layoutY="54.0" text="Locataire" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="54.0" text="Logement" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="111.0" text="Adresse de logement" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="111.0" text="Région" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="193.0" prefHeight="29.0" prefWidth="115.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="217.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="162.0" layoutY="195.0" prefHeight="19.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="123.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="258.0" prefHeight="29.0" prefWidth="115.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="217.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="172.0" layoutY="258.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="16.0" layoutY="173.0" text="Type" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="170.0" text="Loyer" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="239.0" text="Forfaitaire" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="239.0" text="Montant à payer" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="319.0" prefHeight="29.0" prefWidth="115.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="217.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="172.0" layoutY="319.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="16.0" layoutY="300.0" text="Date début" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="300.0" text="Date fin" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="266.0" layoutY="357.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="225.0" styleClass="pink-btn" text="Imprimer" />
+   </children>
+</AnchorPane>

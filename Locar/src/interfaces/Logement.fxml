@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="23.0" layoutY="36.0" text="Recherche">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="114.0" layoutY="33.0" prefHeight="29.0" prefWidth="150.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="157.0" promptText="identifiant" styleClass="tf" />
+         </children>
+      </HBox>
+
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="92.0" prefHeight="29.0" prefWidth="237.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="218.0" promptText="Adresse" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="263.0" layoutY="92.0" prefHeight="29.0" prefWidth="158.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="139.0" promptText="Superficie" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="144.0" prefHeight="29.0" prefWidth="125.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <ComboBox opacity="0.75" prefHeight="25.0" prefWidth="115.0" promptText="Région" style="-fx-background-color: 7;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="153.0" layoutY="144.0" prefHeight="29.0" prefWidth="125.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <ComboBox opacity="0.75" prefHeight="25.0" prefWidth="114.0" promptText="Province" style="-fx-background-color: 7;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="282.0" layoutY="144.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <ComboBox opacity="0.75" prefHeight="25.0" prefWidth="120.0" promptText="Commune" style="-fx-background-color: 7;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="19.0" layoutY="196.0" prefHeight="29.0" prefWidth="125.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <ComboBox opacity="0.75" prefHeight="25.0" prefWidth="111.0" promptText="Type" style="-fx-background-color: 7;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="149.0" layoutY="196.0" prefHeight="29.0" prefWidth="134.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.75" prefHeight="25.0" prefWidth="123.0" promptText="Loyer" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+
+      <Label layoutX="317.0" layoutY="209.0" prefHeight="19.0" prefWidth="122.0" text="aucun séléctionée" textFill="#7294ac">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Label>
+      <TableView layoutX="23.0" layoutY="259.0" prefHeight="117.0" prefWidth="635.0" stylesheets="@../application/application.css" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="22.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="id" />
+          <TableColumn prefWidth="129.0" text="Adresse" />
+            <TableColumn prefWidth="105.0" text="Superficie" />
+            <TableColumn prefWidth="110.0" text="Loyer" />
+            <TableColumn prefWidth="108.0" text="Région" />
+            <TableColumn prefWidth="102.0" text="Type" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="194.0" fitWidth="218.0" layoutX="439.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+      <Button layoutX="216.0" layoutY="376.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" styleClass="buttons" text="Ajouter" />
+      <Button layoutX="306.0" layoutY="376.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" styleClass="buttons" text="Modifier" />
+      <Button layoutX="390.0" layoutY="376.0" mnemonicParsing="false" styleClass="buttons" text="Supprimer" />
+   </children>
+</AnchorPane>

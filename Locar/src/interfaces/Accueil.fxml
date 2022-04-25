@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" style="-fx-background-color: #C0D6DF;" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AccueilController">
+   <children>
+      <ImageView fx:id="imagelog" fitHeight="239.0" fitWidth="488.0" layoutX="98.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="98.0" />
+      <Pane layoutX="27.0" layoutY="24.0" prefHeight="38.0" prefWidth="613.0" style="-fx-background-color: #fab43b;" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="24.0">
+         <children>
+            <Label layoutX="234.0" layoutY="-6.0" text="Disponibilté" textFill="WHITE">
+               <font>
+                  <Font name="Segoe Print" size="26.0" />
+               </font></Label>
+            <Label fx:id="lab_nbr" layoutX="576.0" layoutY="9.0" prefHeight="36.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <Label layoutX="590.0" layoutY="13.0" text=")" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="569.0" layoutY="13.0" prefHeight="17.0" prefWidth="4.0" text="(" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <TextField fx:id="txt_loyer" layoutX="189.0" layoutY="378.0" style="-fx-background-color: #e1e8eb; -fx-border-color: #546a7b; -fx-border-width: 0px 0px 2px 0px;" />
+      <Label layoutX="226.0" layoutY="352.0" text="Prix /mois" textFill="#546a7b">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_superficie" layoutX="349.0" layoutY="379.0" style="-fx-background-color: #e1e8eb; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #546a7b;">
+         <font>
+            <Font name="Rockwell" size="12.0" />
+         </font></TextField>
+      <Label layoutX="386.0" layoutY="352.0" text="Prix/jour" textFill="#546a7b">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_region" layoutX="516.0" layoutY="377.0" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #e1e8eb; -fx-border-color: #546a7b; -fx-border-width: 0px 0px 2px 0px;" />
+      <Label layoutX="538.0" layoutY="352.0" text="Region" textFill="#546a7b">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="precedant" fitHeight="27.0" fitWidth="27.0" layoutX="284.0" layoutY="321.0" onMouseClicked="#showPrecedant" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/44014.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="suivant" fitHeight="27.0" fitWidth="35.0" layoutX="342.0" layoutY="321.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#showSuivant" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/44014.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <TextField fx:id="txt_adr" layoutX="17.0" layoutY="377.0" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #e1e8eb; -fx-border-color: #546a7b; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Rockwell" size="12.0" />
+         </font></TextField>
+      <Label layoutX="53.0" layoutY="352.0" prefHeight="20.0" prefWidth="91.0" text="addresse" textFill="#546a7b">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

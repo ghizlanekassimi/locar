@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="23.0" layoutY="36.0" text="Logement">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="114.0" layoutY="33.0" prefHeight="29.0" prefWidth="150.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.72" prefHeight="25.0" prefWidth="157.0" promptText="CIN" styleClass="tf" />
+         </children>
+      </HBox>
+
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="86.0" prefHeight="29.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="202.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="125.0" prefHeight="29.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="194.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="165.0" prefHeight="29.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="192.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="213.0" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="198.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="110.0" layoutY="260.0" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="174.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="307.0" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="188.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="108.0" layoutY="349.0" prefHeight="26.0" prefWidth="218.0" style="-fx-border-color: black;" styleClass="tf_box" stylesheets="@../application/application.css">
+         <children>
+            <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="191.0" styleClass="tf" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+      <Label layoutX="17.0" layoutY="92.0" text="Adresse" textFill="#7294ac" AnchorPane.leftAnchor="17.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="131.0" text="Loyer" textFill="#7294ac" AnchorPane.leftAnchor="23.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="171.0" text="Type" textFill="#7294ac" AnchorPane.leftAnchor="25.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="210.0" text="Région" textFill="#7294ac">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="265.0" text="Nom_Complet" textFill="#7294ac" AnchorPane.leftAnchor="11.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="307.0" text="CIN" textFill="#7294ac" AnchorPane.leftAnchor="28.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="349.0" text="télé" textFill="#7294ac" AnchorPane.leftAnchor="29.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="264.0" fitWidth="316.0" layoutX="345.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+      <TableView layoutX="349.0" layoutY="31.0" prefHeight="374.0" prefWidth="323.0">
+        <columns>
+          <TableColumn prefWidth="84.0" text="Logement" />
+          <TableColumn text="Locataire" />
+            <TableColumn prefWidth="71.0" text="Date début" />
+            <TableColumn prefWidth="87.0" text="Date fin" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
